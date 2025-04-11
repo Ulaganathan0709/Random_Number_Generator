@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuessNumber</title>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <link rel="stylesheet" href="Style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="hero">
+          <div class="header-container">
+            <h1 class="logo">🎯 Number Game</h1>
+            <nav>
+              <a href="#home">Home</a>
+              <a href="#game">Game</a>
+              <a href="#about">About</a>
+            </nav>
+          </div>
+        </header>
+    
+        <section id="home">
+          <h2>Welcome to the Game!</h2>
+          <p>Try your luck and guess the number between 1 and 10!</p>
+        </section>
+    
+        <section id="game">
+          <h2>Play the Game</h2>
+          <input type="number" id="guessInput" placeholder="Enter your number" min="1" max="10" />
+          <button onclick="checkGuess()">Check</button>
+          <p id="result"></p>
+        </section>
+    
+        <section id="about">
+          <h2>About</h2>
+          <p>This fun guessing game was built with HTML, CSS, and JavaScript as part of my learning with <b>Error Makes Clever</b> 🚀</p>
+        </section>
+      </div>
+    
+</body>
+</html>
