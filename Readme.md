@@ -6,13 +6,13 @@ A simple, fun, and responsive **number guessing game** built using **HTML**, **C
 
 ## 📸 Preview
 
-![Preview](./Random_Number_generator.png) 
+![Preview](./Images/Random_Number_generator.png) 
 
 ---
 
 ## 🔗 Live Demo
 
-🌐 [Click here to play the game](https://your-username.github.io/your-repo-name/)
+🌐 [Click here to play the game](https://ulaganathan0709.github.io/Random_Number_Generator/)
 
 
 ## 🧠 Features
